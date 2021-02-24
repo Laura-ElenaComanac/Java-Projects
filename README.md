@@ -1,11 +1,15 @@
 # Java Projects With Graphical Interfaces
 
-## Applications that use the layered architecture, Observer pattern and JavaFX for the GUI
+# Applications that use the Layered architecture, Observer pattern and JavaFX and CSS for the GUI
+
+  MySocialNetwork
+
+  
 
   Boss-Employees
   
   Holidays
   
-  MySocialNetwork -- The best
+ 
   
   Teacher-Students
