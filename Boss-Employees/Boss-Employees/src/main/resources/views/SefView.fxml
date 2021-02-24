@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="409.0" prefWidth="626.0" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.SefController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="548.5" minWidth="10.0" prefWidth="204.5" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="485.0" minWidth="10.0" prefWidth="204.5" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="485.0" minWidth="10.0" prefWidth="287.5" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints maxHeight="129.0" minHeight="0.0" prefHeight="33.5" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="423.0" minHeight="10.0" prefHeight="363.5" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="49.5" minHeight="10.0" prefHeight="43.5" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Button mnemonicParsing="false" onAction="#handleMaRetrag" text="MA RETRAG" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+      <Label text="MEMBRI ACTIVI" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+      <Label text="TRIMITE MESAJ" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+      <Button mnemonicParsing="false" onAction="#handleTrimiteMesajLaToti" text="LA TOTI" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="2" />
+      <TextField fx:id="mesajField" prefHeight="310.0" prefWidth="277.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <Button mnemonicParsing="false" onAction="#handleTrimiteMesajLaUnul" text="LA UNUL" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="2" />
+      <TableView fx:id="tableViewMembriActivi" prefHeight="177.0" prefWidth="300.0" GridPane.rowIndex="1" GridPane.vgrow="ALWAYS">
+         <columns>
+            <TableColumn fx:id="tableColumnNumeMembru" maxWidth="1000.0" prefWidth="92.0" text="Nume" />
+            <TableColumn fx:id="tableColumnRolMembru" prefWidth="87.0" text="Rol" />
+         </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+      <TableView fx:id="tableViewMesajePrimite" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+        <columns>
+          <TableColumn fx:id="tableColumnNumeMesaj" prefWidth="75.0" text="Nume" />
+          <TableColumn fx:id="tableColumnMesaj" prefWidth="104.0" text="Mesaj" />
+            <TableColumn fx:id="tableColumnOraMesaj" prefWidth="84.5" text="Ora" />
+        </columns>
+      </TableView>
+      <Label text="MESAJE PRIMITE" GridPane.columnIndex="2" GridPane.halignment="CENTER" />
+   </children>
+</GridPane>

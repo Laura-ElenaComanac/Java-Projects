@@ -1,0 +1,4 @@
+1;M1;membru
+2;M2;membru
+4;S;sef
+3;M3;membru

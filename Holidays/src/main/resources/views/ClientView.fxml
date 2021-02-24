@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="377.0" prefWidth="740.0" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.ClientController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="215.5" minWidth="10.0" prefWidth="153.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="331.0" minWidth="10.0" prefWidth="282.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="329.0" minWidth="10.0" prefWidth="303.5" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints maxHeight="129.0" minHeight="0.0" prefHeight="30.5" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="423.0" minHeight="10.0" prefHeight="302.5" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="49.5" minHeight="10.0" prefHeight="43.5" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <TableView fx:id="tableViewHotel" onMouseClicked="#handleClickHotel" prefHeight="358.0" prefWidth="328.0" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.vgrow="ALWAYS">
+         <columns>
+            <TableColumn fx:id="tableColumnHotelName" maxWidth="1000.0" minWidth="60.0" prefWidth="69.5" text="Hotel" />
+            <TableColumn fx:id="tableColumnNoRooms" minWidth="20.0" prefWidth="83.0" text="Nr Camere" />
+            <TableColumn fx:id="tableColumnPricePerNight" prefWidth="57.0" text="Pret" />
+            <TableColumn fx:id="tableColumnType" prefWidth="179.0" text="Tip" />
+         </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+      <Label text="LOCATIE" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+      <Label text="HOTELURI" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+      <TableView fx:id="tableViewSpecialOffer" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+        <columns>
+          <TableColumn fx:id="tableColumnNumeHotelOferta" maxWidth="1000.0" minWidth="70.0" prefWidth="95.0" text="Hotel" />
+          <TableColumn fx:id="tableColumnNumeLocatieOferta" prefWidth="97.0" text="Locatie" />
+            <TableColumn fx:id="tableColumnStartDateOferta" minWidth="4.0" prefWidth="125.0" text="Start Date" />
+            <TableColumn fx:id="tableColumnEndDateOferta" minWidth="4.0" prefWidth="125.0" text="End Date" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+      <Label text="TOATE OFERTELE SPECIALE" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+      <ComboBox fx:id="comboBoxLocatie" onAction="#handleComboLocation" prefWidth="150.0" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+      <Label fx:id="labelHobby" prefHeight="20.0" prefWidth="700.0" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+   </children>
+</GridPane>

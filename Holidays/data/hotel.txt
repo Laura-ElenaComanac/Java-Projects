@@ -1,0 +1,5 @@
+1;1;Roberto;2;160;teenagers
+2;1;Anda;2;140;oldpeople
+3;3;Acasa;5;0;family
+4;2;Mihaly;2;300;teenagers
+5;2;Carpathia;4;200;family
