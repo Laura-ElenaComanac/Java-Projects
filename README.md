@@ -2,6 +2,14 @@
 
 ## Applications that have Layered architecture, Observer pattern and JavaFX and CSS for the GUI
 
+### To run the code:
+
+ 1. Install IntelliJ IDEA
+ 2. git clone https://github.com/Laura-ElenaOlaru/Java-Projects.git in the terminal
+ 3. Open src/main/java/.../ui/MainApp
+ 4. Run MainApp.main()
+ 5. In Edit Configurations from IntelliJ for VM Options fill in: --module-path /path/to/JavaFX/lib --add-modules=javafx.controls
+
 <ul>
  <li>
       <a href="https://github.com/Laura-ElenaOlaru/Java-Projects/tree/main/MySocialNetwork"> 
