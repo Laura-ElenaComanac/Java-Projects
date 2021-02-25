@@ -4,7 +4,7 @@
 
 ### To run the code:
 
- 1. Install IntelliJ IDEA
+ 1. Install IntelliJ IDEA and JavaFX
  2. git clone https://github.com/Laura-ElenaOlaru/Java-Projects.git in the terminal
  3. Open src/main/java/.../ui/MainApp
  4. Run MainApp.main()
