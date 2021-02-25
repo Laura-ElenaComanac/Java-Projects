@@ -4,7 +4,7 @@
 
 <ul>
  <li>
-      <a href="https://github.com/Laura-ElenaOlaru/Projects/tree/master/Java%20Projects/MySocialNetwork"> 
+      <a href="https://github.com/Laura-ElenaOlaru/Java-Projects/tree/main/MySocialNetwork"> 
 			  MySocialNetwork
         <img src="https://user-images.githubusercontent.com/57533863/108736024-de69e680-7539-11eb-8f86-854be27a42e7.png">
       </a>
