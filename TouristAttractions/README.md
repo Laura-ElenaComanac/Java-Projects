@@ -17,4 +17,8 @@
 
 ![image-app03](https://user-images.githubusercontent.com/57533863/114195353-0fbb3c00-9959-11eb-9ccd-69054b6acdee.png)
 
+### Trip booked! Now you can logout
+
+![image-app04](https://user-images.githubusercontent.com/57533863/114197084-ae946800-995a-11eb-91c5-2691cd710e97.png)
+
 ## Have a nice trip!
