@@ -1,4 +1,6 @@
-# Holidays
+# TouristAttractions
+
+## Layered client-server architecture, Observer pattern, JavaFX and CSS for the GUI
 
 ## An application for agency users to book tickets to the Tourist Attractions their clients want
 
