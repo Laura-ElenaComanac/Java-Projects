@@ -1,0 +1,8 @@
+rootProject.name = 'TouristAttractions'
+include 'AttractionsClientFX'
+include 'AttractionsModel'
+include 'AttractionsNetworking'
+include 'AttractionsPersistence'
+include 'AttractionsServer'
+include 'AttractionsServices'
+
