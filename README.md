@@ -11,6 +11,13 @@
  5. In Edit Configurations from IntelliJ for VM Options fill in: --module-path /path/to/JavaFX/lib --add-modules=javafx.controls
 
 <ul>
+<li>
+      <a href="https://github.com/Laura-ElenaOlaru/Java-Projects/tree/main/TouristAttractions"> 
+			  TouristAttractions
+        <img src="https://user-images.githubusercontent.com/57533863/114193107-de417100-9956-11eb-917d-fc4b0406c139.png">
+      </a>
+</li>
+	
  <li>
       <a href="https://github.com/Laura-ElenaOlaru/Java-Projects/tree/main/MySocialNetwork"> 
 			  MySocialNetwork
