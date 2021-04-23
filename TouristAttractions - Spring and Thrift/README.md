@@ -2,6 +2,10 @@
 
 ## Layered client-server architecture, Observer pattern, JavaFX and CSS for the GUI
 
+## Using Spring: https://github.com/Laura-ElenaOlaru/Java-Projects/tree/main/TouristAttractions%20-%20Spring%20and%20Thrift/Spring
+
+## Using Thrift: https://github.com/Laura-ElenaOlaru/Java-Projects/tree/main/TouristAttractions%20-%20Spring%20and%20Thrift/Thrift
+
 ## An application for agency users to book tickets to the Tourist Attractions their clients want
 
 
