@@ -1,0 +1,8 @@
+model/Entity.java
+ model.Entity
+model/Trip.java
+ model.Trip
+model/AgencyUser.java
+ model.AgencyUser
+model/Reservation.java
+ model.Reservation

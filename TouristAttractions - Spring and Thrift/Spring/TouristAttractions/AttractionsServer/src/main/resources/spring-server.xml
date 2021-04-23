@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+    <!-- <util:properties id="jdbcProps">
+        <prop key="jdbc.url">jdbc:sqlite:Z:/Desktop/ProiectMPP/mpp-proiect-repository-Laura-ElenaOlaru/databases/touristAttractions.db</prop>
+    </util:properties> -->
+
+    <util:properties id="jdbcProps" location="classpath:bd.config"/>
+
+
+    <bean id="agencyUserRepo" class="repository.AgencyUserDBRepository">
+        <constructor-arg ref="jdbcProps"/>
+    </bean>
+
+    <bean id="tripRepo" class="repository.TripDBRepository">
+        <constructor-arg ref="jdbcProps"/>
+    </bean>
+
+    <bean id="reservationRepo" class="repository.ReservationDBRepository">
+        <constructor-arg ref="jdbcProps"/>
+    </bean>
+
+    <bean id="taservice" class="server.Service">
+        <constructor-arg ref="agencyUserRepo"/>
+        <constructor-arg ref="tripRepo"/>
+        <constructor-arg ref="reservationRepo"/>
+    </bean>
+
+    <bean class="org.springframework.remoting.rmi.RmiServiceExporter">
+
+        <property name="serviceName" value="IService"/>
+        <property name="service" ref="taservice"/>
+        <property name="serviceInterface" value="service.IService"/>
+        <property name="servicePort" value="1099"/>
+    </bean>
+
+</beans>

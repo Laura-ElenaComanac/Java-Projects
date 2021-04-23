@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.system.module.type="sourceSet" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../AttractionsNetworking/build/classes/java/main" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../AttractionsNetworking/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../../AttractionsNetworking/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../AttractionsNetworking/src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="jdk" jdkName="14" jdkType="JavaSDK" />
+    <orderEntry type="module" module-name="TouristAttractions.AttractionsServices.main" />
+    <orderEntry type="module" module-name="TouristAttractions.AttractionsModel.main" />
+    <orderEntry type="module" module-name="TouristAttractions.AttractionsPersistence.main" />
+    <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-core:2.14.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-api:2.14.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.xerial:sqlite-jdbc:3.16.1" level="project" />
+  </component>
+</module>
