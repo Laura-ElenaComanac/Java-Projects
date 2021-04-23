@@ -16,6 +16,13 @@
         <img src="https://user-images.githubusercontent.com/57533863/114193107-de417100-9956-11eb-917d-fc4b0406c139.png">
       </a>
 </li>
+
+<li>
+      <a href="https://github.com/Laura-ElenaOlaru/Java-Projects/tree/main/TouristAttractions%20-%20Spring%20and%20Thrift"> 
+			  TouristAttractions - Spring and Thrift versions
+        <img src="https://user-images.githubusercontent.com/57533863/115909430-32c70f00-a474-11eb-8fa8-7fd728c28bb9.png">
+      </a>
+</li>
 	
  <li>
       <a href="https://github.com/Laura-ElenaOlaru/Java-Projects/tree/main/MySocialNetwork"> 
