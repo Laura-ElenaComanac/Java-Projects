@@ -1,6 +1,6 @@
 # Java Projects With Graphical Interfaces
 
-## Applications that have Layered architecture, logging, Observer pattern and JavaFX and CSS for the GUI
+## Applications that have Layered architecture, Observer pattern and JavaFX and CSS for the GUI
 
 ### To run the code:
 
