@@ -1,6 +1,6 @@
 # TouristAttractions
 
-## Layered client-server architecture, Observer pattern, JavaFX and CSS for the GUI
+## Layered client-server architecture, logging, Observer pattern, JavaFX and CSS
 
 ## Using Spring: https://github.com/Laura-ElenaOlaru/Java-Projects/tree/main/TouristAttractions%20-%20Spring%20and%20Thrift/Spring
 
