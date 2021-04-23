@@ -1,0 +1,60 @@
+C:\visual projects\TouristAttractionsCS\ConnectionUtils\bin\Debug\ConnectionUtils.dll.config
+C:\visual projects\TouristAttractionsCS\ConnectionUtils\bin\Debug\ConnectionUtils.dll
+C:\visual projects\TouristAttractionsCS\ConnectionUtils\bin\Debug\ConnectionUtils.pdb
+C:\visual projects\TouristAttractionsCS\ConnectionUtils\bin\Debug\EntityFramework.dll
+C:\visual projects\TouristAttractionsCS\ConnectionUtils\bin\Debug\EntityFramework.SqlServer.dll
+C:\visual projects\TouristAttractionsCS\ConnectionUtils\bin\Debug\log4net.dll
+C:\visual projects\TouristAttractionsCS\ConnectionUtils\bin\Debug\System.Data.SQLite.dll
+C:\visual projects\TouristAttractionsCS\ConnectionUtils\bin\Debug\System.Data.SQLite.EF6.dll
+C:\visual projects\TouristAttractionsCS\ConnectionUtils\bin\Debug\System.Data.SQLite.Linq.dll
+C:\visual projects\TouristAttractionsCS\ConnectionUtils\bin\Debug\EntityFramework.xml
+C:\visual projects\TouristAttractionsCS\ConnectionUtils\bin\Debug\EntityFramework.SqlServer.xml
+C:\visual projects\TouristAttractionsCS\ConnectionUtils\bin\Debug\log4net.xml
+C:\visual projects\TouristAttractionsCS\ConnectionUtils\bin\Debug\System.Data.SQLite.xml
+C:\visual projects\TouristAttractionsCS\ConnectionUtils\obj\Debug\ConnectionUtils.csprojAssemblyReference.cache
+C:\visual projects\TouristAttractionsCS\ConnectionUtils\obj\Debug\ConnectionUtils.Properties.Resources.resources
+C:\visual projects\TouristAttractionsCS\ConnectionUtils\obj\Debug\ConnectionUtils.csproj.GenerateResource.cache
+C:\visual projects\TouristAttractionsCS\ConnectionUtils\obj\Debug\ConnectionUtils.csproj.CoreCompileInputs.cache
+C:\visual projects\TouristAttractionsCS\ConnectionUtils\obj\Debug\ConnectionUtils.csproj.CopyComplete
+C:\visual projects\TouristAttractionsCS\ConnectionUtils\obj\Debug\ConnectionUtils.dll
+C:\visual projects\TouristAttractionsCS\ConnectionUtils\obj\Debug\ConnectionUtils.pdb
+Z:\Desktop\ProiectMPP\mpp-proiect-repository-Laura-ElenaOlaru\CSharp\TouristAttractionsCS\ConnectionUtils\bin\Debug\ConnectionUtils.dll.config
+Z:\Desktop\ProiectMPP\mpp-proiect-repository-Laura-ElenaOlaru\CSharp\TouristAttractionsCS\ConnectionUtils\bin\Debug\ConnectionUtils.dll
+Z:\Desktop\ProiectMPP\mpp-proiect-repository-Laura-ElenaOlaru\CSharp\TouristAttractionsCS\ConnectionUtils\bin\Debug\ConnectionUtils.pdb
+Z:\Desktop\ProiectMPP\mpp-proiect-repository-Laura-ElenaOlaru\CSharp\TouristAttractionsCS\ConnectionUtils\bin\Debug\EntityFramework.dll
+Z:\Desktop\ProiectMPP\mpp-proiect-repository-Laura-ElenaOlaru\CSharp\TouristAttractionsCS\ConnectionUtils\bin\Debug\EntityFramework.SqlServer.dll
+Z:\Desktop\ProiectMPP\mpp-proiect-repository-Laura-ElenaOlaru\CSharp\TouristAttractionsCS\ConnectionUtils\bin\Debug\log4net.dll
+Z:\Desktop\ProiectMPP\mpp-proiect-repository-Laura-ElenaOlaru\CSharp\TouristAttractionsCS\ConnectionUtils\bin\Debug\System.Data.SQLite.dll
+Z:\Desktop\ProiectMPP\mpp-proiect-repository-Laura-ElenaOlaru\CSharp\TouristAttractionsCS\ConnectionUtils\bin\Debug\System.Data.SQLite.EF6.dll
+Z:\Desktop\ProiectMPP\mpp-proiect-repository-Laura-ElenaOlaru\CSharp\TouristAttractionsCS\ConnectionUtils\bin\Debug\System.Data.SQLite.Linq.dll
+Z:\Desktop\ProiectMPP\mpp-proiect-repository-Laura-ElenaOlaru\CSharp\TouristAttractionsCS\ConnectionUtils\bin\Debug\EntityFramework.xml
+Z:\Desktop\ProiectMPP\mpp-proiect-repository-Laura-ElenaOlaru\CSharp\TouristAttractionsCS\ConnectionUtils\bin\Debug\EntityFramework.SqlServer.xml
+Z:\Desktop\ProiectMPP\mpp-proiect-repository-Laura-ElenaOlaru\CSharp\TouristAttractionsCS\ConnectionUtils\bin\Debug\log4net.xml
+Z:\Desktop\ProiectMPP\mpp-proiect-repository-Laura-ElenaOlaru\CSharp\TouristAttractionsCS\ConnectionUtils\bin\Debug\System.Data.SQLite.xml
+Z:\Desktop\ProiectMPP\mpp-proiect-repository-Laura-ElenaOlaru\CSharp\TouristAttractionsCS\ConnectionUtils\obj\Debug\ConnectionUtils.csprojAssemblyReference.cache
+Z:\Desktop\ProiectMPP\mpp-proiect-repository-Laura-ElenaOlaru\CSharp\TouristAttractionsCS\ConnectionUtils\obj\Debug\ConnectionUtils.Properties.Resources.resources
+Z:\Desktop\ProiectMPP\mpp-proiect-repository-Laura-ElenaOlaru\CSharp\TouristAttractionsCS\ConnectionUtils\obj\Debug\ConnectionUtils.csproj.GenerateResource.cache
+Z:\Desktop\ProiectMPP\mpp-proiect-repository-Laura-ElenaOlaru\CSharp\TouristAttractionsCS\ConnectionUtils\obj\Debug\ConnectionUtils.csproj.CoreCompileInputs.cache
+Z:\Desktop\ProiectMPP\mpp-proiect-repository-Laura-ElenaOlaru\CSharp\TouristAttractionsCS\ConnectionUtils\obj\Debug\ConnectionUtils.csproj.CopyComplete
+Z:\Desktop\ProiectMPP\mpp-proiect-repository-Laura-ElenaOlaru\CSharp\TouristAttractionsCS\ConnectionUtils\obj\Debug\ConnectionUtils.dll
+Z:\Desktop\ProiectMPP\mpp-proiect-repository-Laura-ElenaOlaru\CSharp\TouristAttractionsCS\ConnectionUtils\obj\Debug\ConnectionUtils.pdb
+Z:\Desktop\Proiecte_MPP\Thrift\CSharp\BEST\TouristAttractionsCS\ConnectionUtils\bin\Debug\ConnectionUtils.dll.config
+Z:\Desktop\Proiecte_MPP\Thrift\CSharp\BEST\TouristAttractionsCS\ConnectionUtils\bin\Debug\ConnectionUtils.dll
+Z:\Desktop\Proiecte_MPP\Thrift\CSharp\BEST\TouristAttractionsCS\ConnectionUtils\bin\Debug\ConnectionUtils.pdb
+Z:\Desktop\Proiecte_MPP\Thrift\CSharp\BEST\TouristAttractionsCS\ConnectionUtils\bin\Debug\EntityFramework.dll
+Z:\Desktop\Proiecte_MPP\Thrift\CSharp\BEST\TouristAttractionsCS\ConnectionUtils\bin\Debug\EntityFramework.SqlServer.dll
+Z:\Desktop\Proiecte_MPP\Thrift\CSharp\BEST\TouristAttractionsCS\ConnectionUtils\bin\Debug\log4net.dll
+Z:\Desktop\Proiecte_MPP\Thrift\CSharp\BEST\TouristAttractionsCS\ConnectionUtils\bin\Debug\System.Data.SQLite.dll
+Z:\Desktop\Proiecte_MPP\Thrift\CSharp\BEST\TouristAttractionsCS\ConnectionUtils\bin\Debug\System.Data.SQLite.EF6.dll
+Z:\Desktop\Proiecte_MPP\Thrift\CSharp\BEST\TouristAttractionsCS\ConnectionUtils\bin\Debug\System.Data.SQLite.Linq.dll
+Z:\Desktop\Proiecte_MPP\Thrift\CSharp\BEST\TouristAttractionsCS\ConnectionUtils\bin\Debug\EntityFramework.xml
+Z:\Desktop\Proiecte_MPP\Thrift\CSharp\BEST\TouristAttractionsCS\ConnectionUtils\bin\Debug\EntityFramework.SqlServer.xml
+Z:\Desktop\Proiecte_MPP\Thrift\CSharp\BEST\TouristAttractionsCS\ConnectionUtils\bin\Debug\log4net.xml
+Z:\Desktop\Proiecte_MPP\Thrift\CSharp\BEST\TouristAttractionsCS\ConnectionUtils\bin\Debug\System.Data.SQLite.xml
+Z:\Desktop\Proiecte_MPP\Thrift\CSharp\BEST\TouristAttractionsCS\ConnectionUtils\obj\Debug\ConnectionUtils.csprojAssemblyReference.cache
+Z:\Desktop\Proiecte_MPP\Thrift\CSharp\BEST\TouristAttractionsCS\ConnectionUtils\obj\Debug\ConnectionUtils.Properties.Resources.resources
+Z:\Desktop\Proiecte_MPP\Thrift\CSharp\BEST\TouristAttractionsCS\ConnectionUtils\obj\Debug\ConnectionUtils.csproj.GenerateResource.cache
+Z:\Desktop\Proiecte_MPP\Thrift\CSharp\BEST\TouristAttractionsCS\ConnectionUtils\obj\Debug\ConnectionUtils.csproj.CoreCompileInputs.cache
+Z:\Desktop\Proiecte_MPP\Thrift\CSharp\BEST\TouristAttractionsCS\ConnectionUtils\obj\Debug\ConnectionUtils.csproj.CopyComplete
+Z:\Desktop\Proiecte_MPP\Thrift\CSharp\BEST\TouristAttractionsCS\ConnectionUtils\obj\Debug\ConnectionUtils.dll
+Z:\Desktop\Proiecte_MPP\Thrift\CSharp\BEST\TouristAttractionsCS\ConnectionUtils\obj\Debug\ConnectionUtils.pdb

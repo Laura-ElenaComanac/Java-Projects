@@ -1,0 +1,12 @@
+Z:\Desktop\ProiectMPP\mpp-proiect-repository-Laura-ElenaOlaru\CSharp\TouristAttractionsCS\Model\obj\Debug\Model.csprojAssemblyReference.cache
+Z:\Desktop\ProiectMPP\mpp-proiect-repository-Laura-ElenaOlaru\CSharp\TouristAttractionsCS\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+Z:\Desktop\ProiectMPP\mpp-proiect-repository-Laura-ElenaOlaru\CSharp\TouristAttractionsCS\Model\bin\Debug\Model.dll
+Z:\Desktop\ProiectMPP\mpp-proiect-repository-Laura-ElenaOlaru\CSharp\TouristAttractionsCS\Model\bin\Debug\Model.pdb
+Z:\Desktop\ProiectMPP\mpp-proiect-repository-Laura-ElenaOlaru\CSharp\TouristAttractionsCS\Model\obj\Debug\Model.dll
+Z:\Desktop\ProiectMPP\mpp-proiect-repository-Laura-ElenaOlaru\CSharp\TouristAttractionsCS\Model\obj\Debug\Model.pdb
+Z:\Desktop\Proiecte_MPP\Thrift\CSharp\BEST\TouristAttractionsCS\Model\bin\Debug\Model.dll
+Z:\Desktop\Proiecte_MPP\Thrift\CSharp\BEST\TouristAttractionsCS\Model\bin\Debug\Model.pdb
+Z:\Desktop\Proiecte_MPP\Thrift\CSharp\BEST\TouristAttractionsCS\Model\obj\Debug\Model.csprojAssemblyReference.cache
+Z:\Desktop\Proiecte_MPP\Thrift\CSharp\BEST\TouristAttractionsCS\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+Z:\Desktop\Proiecte_MPP\Thrift\CSharp\BEST\TouristAttractionsCS\Model\obj\Debug\Model.dll
+Z:\Desktop\Proiecte_MPP\Thrift\CSharp\BEST\TouristAttractionsCS\Model\obj\Debug\Model.pdb
