@@ -1,15 +1,15 @@
 # Java Projects With Graphical Interfaces
 
-## Gradle Applications that have Layered architecture, Observer pattern and JavaFX and CSS for the GUI
-
-### To run the code:
-
- 1. Install IntelliJ IDEA and JavaFX
- 2. git clone https://github.com/Laura-ElenaOlaru/Java-Projects.git in the terminal
- 3. Open src/main/java/.../ui/MainApp
- 4. Run MainApp.main()
+## Gradle Applications that have layered Client-Server architecture in Spring / Spirng Boot
+## JPA and Hibernate for MySQL DB
+## Observer pattern and JavaFX or CSS / Flutter for the GUI
 
 <ul>
+	<a href="https://github.com/Laura-ElenaOlaru/Java-Projects/tree/main/Projy"> 
+	      Projy
+        <img src="https://user-images.githubusercontent.com/57533863/157671458-5de93f20-7861-4ef9-940c-12a9d1d6bf56.png">
+      </a>
+	
 <li>
       <a href="https://github.com/Laura-ElenaOlaru/Java-Projects/tree/main/TouristAttractions"> 
 			  TouristAttractions
