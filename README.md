@@ -3,7 +3,7 @@
 ## Gradle Applications that have layered Client-Server architecture in Spring / Spring Boot
 ## REST API and WebSocket connection
 ## JPA and Hibernate for MySQL DB
-## Observer pattern and JavaFX or CSS / Flutter for the GUI
+## Observer pattern and JavaFX and CSS / Flutter for the GUI
 
 <ul>
 	<a href="https://github.com/Laura-ElenaOlaru/Java-Projects/tree/main/Projy"> 
