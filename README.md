@@ -1,6 +1,7 @@
 # Java Projects With Graphical Interfaces
 
 ## Gradle Applications that have layered Client-Server architecture in Spring / Spirng Boot
+## REST API and WebSocket connection
 ## JPA and Hibernate for MySQL DB
 ## Observer pattern and JavaFX or CSS / Flutter for the GUI
 
