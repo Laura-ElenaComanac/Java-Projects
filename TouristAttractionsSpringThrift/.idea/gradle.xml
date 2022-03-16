@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Spring/TouristAttractions" />
+        <option name="gradleJvm" value="14" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Spring/TouristAttractions" />
+            <option value="$PROJECT_DIR$/Spring/TouristAttractions/AttractionsClientFX" />
+            <option value="$PROJECT_DIR$/Spring/TouristAttractions/AttractionsModel" />
+            <option value="$PROJECT_DIR$/Spring/TouristAttractions/AttractionsNetworking" />
+            <option value="$PROJECT_DIR$/Spring/TouristAttractions/AttractionsPersistence" />
+            <option value="$PROJECT_DIR$/Spring/TouristAttractions/AttractionsServer" />
+            <option value="$PROJECT_DIR$/Spring/TouristAttractions/AttractionsServices" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Thrift/Java/TouristAttractions" />
+        <option name="gradleJvm" value="14" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Thrift/Java/TouristAttractions" />
+            <option value="$PROJECT_DIR$/Thrift/Java/TouristAttractions/AttractionsClientFX" />
+            <option value="$PROJECT_DIR$/Thrift/Java/TouristAttractions/AttractionsModel" />
+            <option value="$PROJECT_DIR$/Thrift/Java/TouristAttractions/AttractionsNetworking" />
+            <option value="$PROJECT_DIR$/Thrift/Java/TouristAttractions/AttractionsPersistence" />
+            <option value="$PROJECT_DIR$/Thrift/Java/TouristAttractions/AttractionsServer" />
+            <option value="$PROJECT_DIR$/Thrift/Java/TouristAttractions/AttractionsServices" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

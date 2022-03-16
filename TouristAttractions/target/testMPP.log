@@ -1175,3 +1175,378 @@
 07 Apr 2021 11:32:26,564 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:Z:/Desktop/ProiectMPP/mpp-proiect-repository-Laura-ElenaOlaru/databases/touristAttractions.db
 07 Apr 2021 11:32:26,567 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@3715f29d)
 07 Apr 2021 11:32:26,589 TRACE repository.TripDBRepository 144 findAll - Exit with([Trip{touristAttraction='Statue of Liberty', transportCompany='AmericanAirlines', leavingHour=10:00, price=22222.0, nrSeats=456}, Trip{touristAttraction='Eiffel Tower', transportCompany='Tetarom', leavingHour=07:00, price=1000.0, nrSeats=189}, Trip{touristAttraction='Colosseum', transportCompany='RomeAirlines', leavingHour=11:00, price=2000.0, nrSeats=85}, Trip{touristAttraction='Bran Castle', transportCompany='RoTrans', leavingHour=06:00, price=100.0, nrSeats=70}, Trip{touristAttraction='Acropolis', transportCompany='AthensAirlines', leavingHour=12:00, price=1100.0, nrSeats=138}, Trip{touristAttraction='Acropolis', transportCompany='Airlines', leavingHour=09:00, price=2001.0, nrSeats=0}, Trip{touristAttraction='NewAttraction2', transportCompany='NewTransport2', leavingHour=10:00, price=0.0, nrSeats=0}, Trip{touristAttraction='Attraction', transportCompany='Transport', leavingHour=10:00, price=1000.0, nrSeats=0}])
+24 Oct 2021 13:02:02,818 INFO  repository.AgencyUserDBRepository 21 <init> - Initializing TripDBRepository with properties: {touristAttractions.server.port=55556, attractions.jdbc.url=jdbc:sqlite:Z:/Desktop/ProiectMPP/mpp-proiect-repository-Laura-ElenaOlaru/databases/touristAttractions.db, attractions.jdbc.driver=org.sqlite.JDBC} 
+24 Oct 2021 13:02:02,826 INFO  repository.TripDBRepository 19 <init> - Initializing TripDBRepository with properties: {touristAttractions.server.port=55556, attractions.jdbc.url=jdbc:sqlite:Z:/Desktop/ProiectMPP/mpp-proiect-repository-Laura-ElenaOlaru/databases/touristAttractions.db, attractions.jdbc.driver=org.sqlite.JDBC} 
+24 Oct 2021 13:02:02,828 INFO  repository.ReservationDBRepository 21 <init> - Initializing TripDBRepository with properties: {touristAttractions.server.port=55556, attractions.jdbc.url=jdbc:sqlite:Z:/Desktop/ProiectMPP/mpp-proiect-repository-Laura-ElenaOlaru/databases/touristAttractions.db, attractions.jdbc.driver=org.sqlite.JDBC} 
+24 Oct 2021 13:02:56,529 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 13:02:56,532 TRACE repository.JdbcUtils 20 getNewConnection - Enter
+24 Oct 2021 13:02:56,532 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:Z:/Desktop/ProiectMPP/mpp-proiect-repository-Laura-ElenaOlaru/databases/touristAttractions.db
+24 Oct 2021 13:02:56,571 ERROR repository.JdbcUtils 37 getNewConnection - java.sql.SQLException: path to 'Z:/Desktop/ProiectMPP/mpp-proiect-repository-Laura-ElenaOlaru/databases/touristAttractions.db': '/Users/laura-elena.olaru/Desktop/GIT_PROJECTS/Java-Projects/TouristAttractions/Z:' does not exist
+24 Oct 2021 13:02:56,572 TRACE repository.JdbcUtils 53 getConnection - Exit
+24 Oct 2021 13:31:52,672 INFO  repository.AgencyUserDBRepository 21 <init> - Initializing TripDBRepository with properties: {touristAttractions.server.port=55556, attractions.jdbc.url=jdbc:sqlite:Z:/Desktop/ProiectMPP/mpp-proiect-repository-Laura-ElenaOlaru/databases/touristAttractions.db, attractions.jdbc.driver=org.sqlite.JDBC} 
+24 Oct 2021 13:31:52,679 INFO  repository.TripDBRepository 19 <init> - Initializing TripDBRepository with properties: {touristAttractions.server.port=55556, attractions.jdbc.url=jdbc:sqlite:Z:/Desktop/ProiectMPP/mpp-proiect-repository-Laura-ElenaOlaru/databases/touristAttractions.db, attractions.jdbc.driver=org.sqlite.JDBC} 
+24 Oct 2021 13:31:52,680 INFO  repository.ReservationDBRepository 21 <init> - Initializing TripDBRepository with properties: {touristAttractions.server.port=55556, attractions.jdbc.url=jdbc:sqlite:Z:/Desktop/ProiectMPP/mpp-proiect-repository-Laura-ElenaOlaru/databases/touristAttractions.db, attractions.jdbc.driver=org.sqlite.JDBC} 
+24 Oct 2021 13:32:33,923 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 13:32:33,925 TRACE repository.JdbcUtils 20 getNewConnection - Enter
+24 Oct 2021 13:32:33,926 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:Z:/Desktop/ProiectMPP/mpp-proiect-repository-Laura-ElenaOlaru/databases/touristAttractions.db
+24 Oct 2021 13:32:33,964 ERROR repository.JdbcUtils 37 getNewConnection - java.sql.SQLException: path to 'Z:/Desktop/ProiectMPP/mpp-proiect-repository-Laura-ElenaOlaru/databases/touristAttractions.db': '/Users/laura-elena.olaru/Desktop/GIT_PROJECTS/Java-Projects/TouristAttractions/Z:' does not exist
+24 Oct 2021 13:32:33,965 TRACE repository.JdbcUtils 53 getConnection - Exit
+24 Oct 2021 13:35:30,643 INFO  repository.AgencyUserDBRepository 21 <init> - Initializing TripDBRepository with properties: {touristAttractions.server.port=55556, attractions.jdbc.url=jdbc:sqlite:Z:/Desktop/ProiectMPP/mpp-proiect-repository-Laura-ElenaOlaru/databases/touristAttractions.db, attractions.jdbc.driver=org.sqlite.JDBC} 
+24 Oct 2021 13:35:30,649 INFO  repository.TripDBRepository 19 <init> - Initializing TripDBRepository with properties: {touristAttractions.server.port=55556, attractions.jdbc.url=jdbc:sqlite:Z:/Desktop/ProiectMPP/mpp-proiect-repository-Laura-ElenaOlaru/databases/touristAttractions.db, attractions.jdbc.driver=org.sqlite.JDBC} 
+24 Oct 2021 13:35:30,651 INFO  repository.ReservationDBRepository 21 <init> - Initializing TripDBRepository with properties: {touristAttractions.server.port=55556, attractions.jdbc.url=jdbc:sqlite:Z:/Desktop/ProiectMPP/mpp-proiect-repository-Laura-ElenaOlaru/databases/touristAttractions.db, attractions.jdbc.driver=org.sqlite.JDBC} 
+24 Oct 2021 13:36:02,962 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 13:36:02,965 TRACE repository.JdbcUtils 20 getNewConnection - Enter
+24 Oct 2021 13:36:02,965 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:Z:/Desktop/ProiectMPP/mpp-proiect-repository-Laura-ElenaOlaru/databases/touristAttractions.db
+24 Oct 2021 13:36:02,999 ERROR repository.JdbcUtils 37 getNewConnection - java.sql.SQLException: path to 'Z:/Desktop/ProiectMPP/mpp-proiect-repository-Laura-ElenaOlaru/databases/touristAttractions.db': '/Users/laura-elena.olaru/Desktop/GIT_PROJECTS/Java-Projects/TouristAttractions/Z:' does not exist
+24 Oct 2021 13:36:03,000 TRACE repository.JdbcUtils 53 getConnection - Exit
+24 Oct 2021 13:39:02,226 INFO  repository.AgencyUserDBRepository 21 <init> - Initializing TripDBRepository with properties: {touristAttractions.server.port=55556, attractions.jdbc.url=jdbc:sqlite:Z:/Desktop/ProiectMPP/mpp-proiect-repository-Laura-ElenaOlaru/databases/touristAttractions.db, attractions.jdbc.driver=org.sqlite.JDBC} 
+24 Oct 2021 13:39:02,232 INFO  repository.TripDBRepository 19 <init> - Initializing TripDBRepository with properties: {touristAttractions.server.port=55556, attractions.jdbc.url=jdbc:sqlite:Z:/Desktop/ProiectMPP/mpp-proiect-repository-Laura-ElenaOlaru/databases/touristAttractions.db, attractions.jdbc.driver=org.sqlite.JDBC} 
+24 Oct 2021 13:39:02,233 INFO  repository.ReservationDBRepository 21 <init> - Initializing TripDBRepository with properties: {touristAttractions.server.port=55556, attractions.jdbc.url=jdbc:sqlite:Z:/Desktop/ProiectMPP/mpp-proiect-repository-Laura-ElenaOlaru/databases/touristAttractions.db, attractions.jdbc.driver=org.sqlite.JDBC} 
+24 Oct 2021 13:39:24,241 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 13:39:24,243 TRACE repository.JdbcUtils 20 getNewConnection - Enter
+24 Oct 2021 13:39:24,244 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:Z:/Desktop/ProiectMPP/mpp-proiect-repository-Laura-ElenaOlaru/databases/touristAttractions.db
+24 Oct 2021 13:39:24,272 ERROR repository.JdbcUtils 37 getNewConnection - java.sql.SQLException: path to 'Z:/Desktop/ProiectMPP/mpp-proiect-repository-Laura-ElenaOlaru/databases/touristAttractions.db': '/Users/laura-elena.olaru/Desktop/GIT_PROJECTS/Java-Projects/TouristAttractions/Z:' does not exist
+24 Oct 2021 13:39:24,273 TRACE repository.JdbcUtils 53 getConnection - Exit
+24 Oct 2021 13:41:06,625 INFO  repository.AgencyUserDBRepository 21 <init> - Initializing TripDBRepository with properties: {touristAttractions.server.port=55556, attractions.jdbc.url=jdbc:sqlite:/Users/laura-elena.olaru/Desktop/GIT_PROJECTS/Java-Projects/TouristAttractionsSpringThrift/Spring/databases/touristAttractions.db, attractions.jdbc.driver=org.sqlite.JDBC} 
+24 Oct 2021 13:41:06,632 INFO  repository.TripDBRepository 19 <init> - Initializing TripDBRepository with properties: {touristAttractions.server.port=55556, attractions.jdbc.url=jdbc:sqlite:/Users/laura-elena.olaru/Desktop/GIT_PROJECTS/Java-Projects/TouristAttractionsSpringThrift/Spring/databases/touristAttractions.db, attractions.jdbc.driver=org.sqlite.JDBC} 
+24 Oct 2021 13:41:06,633 INFO  repository.ReservationDBRepository 21 <init> - Initializing TripDBRepository with properties: {touristAttractions.server.port=55556, attractions.jdbc.url=jdbc:sqlite:/Users/laura-elena.olaru/Desktop/GIT_PROJECTS/Java-Projects/TouristAttractionsSpringThrift/Spring/databases/touristAttractions.db, attractions.jdbc.driver=org.sqlite.JDBC} 
+24 Oct 2021 13:41:33,180 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 13:41:33,182 TRACE repository.JdbcUtils 20 getNewConnection - Enter
+24 Oct 2021 13:41:33,182 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/laura-elena.olaru/Desktop/GIT_PROJECTS/Java-Projects/TouristAttractionsSpringThrift/Spring/databases/touristAttractions.db
+24 Oct 2021 13:41:33,527 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@592a21e4)
+24 Oct 2021 13:41:33,530 TRACE repository.AgencyUserDBRepository 181 filterAgencyUserByUserNameAndPassword - Exit with(AgencyUser{name='elo', password='12345'})
+24 Oct 2021 13:41:36,544 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 13:41:36,545 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@592a21e4)
+24 Oct 2021 13:41:36,545 TRACE repository.AgencyUserDBRepository 181 filterAgencyUserByUserNameAndPassword - Exit with(AgencyUser{name='elo', password='12345'})
+24 Oct 2021 13:41:37,553 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 13:41:37,553 TRACE repository.JdbcUtils 20 getNewConnection - Enter
+24 Oct 2021 13:41:37,553 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/laura-elena.olaru/Desktop/GIT_PROJECTS/Java-Projects/TouristAttractionsSpringThrift/Spring/databases/touristAttractions.db
+24 Oct 2021 13:41:37,554 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@5cfd852a)
+24 Oct 2021 13:41:37,569 TRACE repository.TripDBRepository 144 findAll - Exit with([Trip{touristAttraction='Statue of Liberty', transportCompany='AmericanAirlines', leavingHour=10:00, price=22222.0, nrSeats=454}, Trip{touristAttraction='Eiffel Tower', transportCompany='Tetarom', leavingHour=07:00, price=1000.0, nrSeats=189}, Trip{touristAttraction='Colosseum', transportCompany='RomeAirlines', leavingHour=11:00, price=2000.0, nrSeats=85}, Trip{touristAttraction='Bran Castle', transportCompany='RoTrans', leavingHour=06:00, price=100.0, nrSeats=70}, Trip{touristAttraction='Acropolis', transportCompany='AthensAirlines', leavingHour=12:00, price=1100.0, nrSeats=135}, Trip{touristAttraction='Acropolis', transportCompany='Airlines', leavingHour=09:00, price=2001.0, nrSeats=0}, Trip{touristAttraction='NewAttraction2', transportCompany='NewTransport2', leavingHour=10:00, price=0.0, nrSeats=0}, Trip{touristAttraction='Attraction', transportCompany='Transport', leavingHour=10:00, price=1000.0, nrSeats=0}])
+24 Oct 2021 13:42:23,508 TRACE repository.TripDBRepository 66 update - Enter updating trip Trip{touristAttraction='Eiffel Tower', transportCompany='Tetarom', leavingHour=07:00, price=1000.0, nrSeats=187} 
+24 Oct 2021 13:42:23,509 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 13:42:23,509 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@5cfd852a)
+24 Oct 2021 13:42:23,513 TRACE repository.TripDBRepository 79 update - Updated 1 instances
+24 Oct 2021 13:42:23,513 TRACE repository.TripDBRepository 86 update - Exit
+24 Oct 2021 13:42:23,514 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 13:42:23,514 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@592a21e4)
+24 Oct 2021 13:42:23,515 TRACE repository.AgencyUserDBRepository 134 findAll - Exit with([AgencyUser{name='elo', password='12345'}, AgencyUser{name='mlo', password='67890'}, AgencyUser{name='dmc', password='19324'}, AgencyUser{name='UpdatedAgencyUser', password='UpdatedPass'}])
+24 Oct 2021 13:42:23,515 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 13:42:23,515 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@5cfd852a)
+24 Oct 2021 13:42:23,517 TRACE repository.TripDBRepository 144 findAll - Exit with([Trip{touristAttraction='Statue of Liberty', transportCompany='AmericanAirlines', leavingHour=10:00, price=22222.0, nrSeats=454}, Trip{touristAttraction='Eiffel Tower', transportCompany='Tetarom', leavingHour=07:00, price=1000.0, nrSeats=187}, Trip{touristAttraction='Colosseum', transportCompany='RomeAirlines', leavingHour=11:00, price=2000.0, nrSeats=85}, Trip{touristAttraction='Bran Castle', transportCompany='RoTrans', leavingHour=06:00, price=100.0, nrSeats=70}, Trip{touristAttraction='Acropolis', transportCompany='AthensAirlines', leavingHour=12:00, price=1100.0, nrSeats=135}, Trip{touristAttraction='Acropolis', transportCompany='Airlines', leavingHour=09:00, price=2001.0, nrSeats=0}, Trip{touristAttraction='NewAttraction2', transportCompany='NewTransport2', leavingHour=10:00, price=0.0, nrSeats=0}, Trip{touristAttraction='Attraction', transportCompany='Transport', leavingHour=10:00, price=1000.0, nrSeats=0}])
+24 Oct 2021 13:42:24,525 TRACE repository.ReservationDBRepository 152 size - Enter SIZE of reservations
+24 Oct 2021 13:42:24,525 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 13:42:24,525 TRACE repository.JdbcUtils 20 getNewConnection - Enter
+24 Oct 2021 13:42:24,525 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/laura-elena.olaru/Desktop/GIT_PROJECTS/Java-Projects/TouristAttractionsSpringThrift/Spring/databases/touristAttractions.db
+24 Oct 2021 13:42:24,526 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@18c4cf1e)
+24 Oct 2021 13:42:24,532 TRACE repository.ReservationDBRepository 158 size - SIZE org.sqlite.jdbc4.JDBC4ResultSet@66c2c95b
+24 Oct 2021 13:42:25,537 TRACE repository.ReservationDBRepository 27 add - Enter saving reservation Reservation{nrTickets=2, clientName='www', telephone='111'} 
+24 Oct 2021 13:42:25,538 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 13:42:25,538 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@18c4cf1e)
+24 Oct 2021 13:42:25,540 TRACE repository.ReservationDBRepository 38 add - Saved 1 instances
+24 Oct 2021 13:42:25,540 TRACE repository.ReservationDBRepository 45 add - Exit
+24 Oct 2021 13:53:06,985 INFO  repository.AgencyUserDBRepository 21 <init> - Initializing TripDBRepository with properties: {touristAttractions.server.port=55556, attractions.jdbc.url=jdbc:sqlite:/Users/laura-elena.olaru/Desktop/GIT_PROJECTS/Java-Projects/TouristAttractionsSpringThrift/Spring/databases/touristAttractions.db, attractions.jdbc.driver=org.sqlite.JDBC} 
+24 Oct 2021 13:53:06,992 INFO  repository.TripDBRepository 19 <init> - Initializing TripDBRepository with properties: {touristAttractions.server.port=55556, attractions.jdbc.url=jdbc:sqlite:/Users/laura-elena.olaru/Desktop/GIT_PROJECTS/Java-Projects/TouristAttractionsSpringThrift/Spring/databases/touristAttractions.db, attractions.jdbc.driver=org.sqlite.JDBC} 
+24 Oct 2021 13:53:06,994 INFO  repository.ReservationDBRepository 21 <init> - Initializing TripDBRepository with properties: {touristAttractions.server.port=55556, attractions.jdbc.url=jdbc:sqlite:/Users/laura-elena.olaru/Desktop/GIT_PROJECTS/Java-Projects/TouristAttractionsSpringThrift/Spring/databases/touristAttractions.db, attractions.jdbc.driver=org.sqlite.JDBC} 
+24 Oct 2021 13:54:36,280 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 13:54:36,285 TRACE repository.JdbcUtils 20 getNewConnection - Enter
+24 Oct 2021 13:54:36,286 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/laura-elena.olaru/Desktop/GIT_PROJECTS/Java-Projects/TouristAttractionsSpringThrift/Spring/databases/touristAttractions.db
+24 Oct 2021 13:54:36,588 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@592a21e4)
+24 Oct 2021 13:54:36,593 TRACE repository.AgencyUserDBRepository 181 filterAgencyUserByUserNameAndPassword - Exit
+24 Oct 2021 13:54:53,867 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 13:54:53,870 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@592a21e4)
+24 Oct 2021 13:54:53,871 TRACE repository.AgencyUserDBRepository 181 filterAgencyUserByUserNameAndPassword - Exit with(AgencyUser{name='elo', password='12345'})
+24 Oct 2021 13:54:56,780 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 13:54:56,781 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@592a21e4)
+24 Oct 2021 13:54:56,782 TRACE repository.AgencyUserDBRepository 181 filterAgencyUserByUserNameAndPassword - Exit with(AgencyUser{name='elo', password='12345'})
+24 Oct 2021 13:54:57,791 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 13:54:57,791 TRACE repository.JdbcUtils 20 getNewConnection - Enter
+24 Oct 2021 13:54:57,791 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/laura-elena.olaru/Desktop/GIT_PROJECTS/Java-Projects/TouristAttractionsSpringThrift/Spring/databases/touristAttractions.db
+24 Oct 2021 13:54:57,792 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@4576f1be)
+24 Oct 2021 13:54:57,806 TRACE repository.TripDBRepository 144 findAll - Exit with([Trip{touristAttraction='Statue of Liberty', transportCompany='AmericanAirlines', leavingHour=10:00, price=22222.0, nrSeats=454}, Trip{touristAttraction='Eiffel Tower', transportCompany='Tetarom', leavingHour=07:00, price=1000.0, nrSeats=187}, Trip{touristAttraction='Colosseum', transportCompany='RomeAirlines', leavingHour=11:00, price=2000.0, nrSeats=85}, Trip{touristAttraction='Bran Castle', transportCompany='RoTrans', leavingHour=06:00, price=100.0, nrSeats=70}, Trip{touristAttraction='Acropolis', transportCompany='AthensAirlines', leavingHour=12:00, price=1100.0, nrSeats=135}, Trip{touristAttraction='Acropolis', transportCompany='Airlines', leavingHour=09:00, price=2001.0, nrSeats=0}, Trip{touristAttraction='NewAttraction2', transportCompany='NewTransport2', leavingHour=10:00, price=0.0, nrSeats=0}, Trip{touristAttraction='Attraction', transportCompany='Transport', leavingHour=10:00, price=1000.0, nrSeats=0}])
+24 Oct 2021 13:58:41,670 TRACE repository.TripDBRepository 66 update - Enter updating trip Trip{touristAttraction='Colosseum', transportCompany='RomeAirlines', leavingHour=11:00, price=2000.0, nrSeats=82} 
+24 Oct 2021 13:58:41,672 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 13:58:41,672 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@4576f1be)
+24 Oct 2021 13:58:41,677 TRACE repository.TripDBRepository 79 update - Updated 1 instances
+24 Oct 2021 13:58:41,677 TRACE repository.TripDBRepository 86 update - Exit
+24 Oct 2021 13:58:41,677 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 13:58:41,677 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@592a21e4)
+24 Oct 2021 13:58:41,678 TRACE repository.AgencyUserDBRepository 134 findAll - Exit with([AgencyUser{name='elo', password='12345'}, AgencyUser{name='mlo', password='67890'}, AgencyUser{name='dmc', password='19324'}, AgencyUser{name='UpdatedAgencyUser', password='UpdatedPass'}])
+24 Oct 2021 13:58:41,679 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 13:58:41,679 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@4576f1be)
+24 Oct 2021 13:58:41,680 TRACE repository.TripDBRepository 144 findAll - Exit with([Trip{touristAttraction='Statue of Liberty', transportCompany='AmericanAirlines', leavingHour=10:00, price=22222.0, nrSeats=454}, Trip{touristAttraction='Eiffel Tower', transportCompany='Tetarom', leavingHour=07:00, price=1000.0, nrSeats=187}, Trip{touristAttraction='Colosseum', transportCompany='RomeAirlines', leavingHour=11:00, price=2000.0, nrSeats=82}, Trip{touristAttraction='Bran Castle', transportCompany='RoTrans', leavingHour=06:00, price=100.0, nrSeats=70}, Trip{touristAttraction='Acropolis', transportCompany='AthensAirlines', leavingHour=12:00, price=1100.0, nrSeats=135}, Trip{touristAttraction='Acropolis', transportCompany='Airlines', leavingHour=09:00, price=2001.0, nrSeats=0}, Trip{touristAttraction='NewAttraction2', transportCompany='NewTransport2', leavingHour=10:00, price=0.0, nrSeats=0}, Trip{touristAttraction='Attraction', transportCompany='Transport', leavingHour=10:00, price=1000.0, nrSeats=0}])
+24 Oct 2021 13:58:42,688 TRACE repository.ReservationDBRepository 152 size - Enter SIZE of reservations
+24 Oct 2021 13:58:42,689 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 13:58:42,689 TRACE repository.JdbcUtils 20 getNewConnection - Enter
+24 Oct 2021 13:58:42,690 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/laura-elena.olaru/Desktop/GIT_PROJECTS/Java-Projects/TouristAttractionsSpringThrift/Spring/databases/touristAttractions.db
+24 Oct 2021 13:58:42,691 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@63dfd90d)
+24 Oct 2021 13:58:42,697 TRACE repository.ReservationDBRepository 158 size - SIZE org.sqlite.jdbc4.JDBC4ResultSet@303f3bc
+24 Oct 2021 13:58:43,707 TRACE repository.ReservationDBRepository 27 add - Enter saving reservation Reservation{nrTickets=3, clientName='Liviu', telephone='00112233'} 
+24 Oct 2021 13:58:43,707 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 13:58:43,707 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@63dfd90d)
+24 Oct 2021 13:58:43,711 TRACE repository.ReservationDBRepository 38 add - Saved 1 instances
+24 Oct 2021 13:58:43,711 TRACE repository.ReservationDBRepository 45 add - Exit
+24 Oct 2021 13:58:44,717 TRACE repository.TripDBRepository 66 update - Enter updating trip Trip{touristAttraction='Colosseum', transportCompany='RomeAirlines', leavingHour=11:00, price=2000.0, nrSeats=79} 
+24 Oct 2021 13:58:44,717 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 13:58:44,717 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@4576f1be)
+24 Oct 2021 13:58:44,725 TRACE repository.TripDBRepository 79 update - Updated 1 instances
+24 Oct 2021 13:58:44,725 TRACE repository.TripDBRepository 86 update - Exit
+24 Oct 2021 13:58:44,725 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 13:58:44,726 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@592a21e4)
+24 Oct 2021 13:58:44,726 TRACE repository.AgencyUserDBRepository 134 findAll - Exit with([AgencyUser{name='elo', password='12345'}, AgencyUser{name='mlo', password='67890'}, AgencyUser{name='dmc', password='19324'}, AgencyUser{name='UpdatedAgencyUser', password='UpdatedPass'}])
+24 Oct 2021 13:58:44,726 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 13:58:44,727 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@4576f1be)
+24 Oct 2021 13:58:44,728 TRACE repository.TripDBRepository 144 findAll - Exit with([Trip{touristAttraction='Statue of Liberty', transportCompany='AmericanAirlines', leavingHour=10:00, price=22222.0, nrSeats=454}, Trip{touristAttraction='Eiffel Tower', transportCompany='Tetarom', leavingHour=07:00, price=1000.0, nrSeats=187}, Trip{touristAttraction='Colosseum', transportCompany='RomeAirlines', leavingHour=11:00, price=2000.0, nrSeats=79}, Trip{touristAttraction='Bran Castle', transportCompany='RoTrans', leavingHour=06:00, price=100.0, nrSeats=70}, Trip{touristAttraction='Acropolis', transportCompany='AthensAirlines', leavingHour=12:00, price=1100.0, nrSeats=135}, Trip{touristAttraction='Acropolis', transportCompany='Airlines', leavingHour=09:00, price=2001.0, nrSeats=0}, Trip{touristAttraction='NewAttraction2', transportCompany='NewTransport2', leavingHour=10:00, price=0.0, nrSeats=0}, Trip{touristAttraction='Attraction', transportCompany='Transport', leavingHour=10:00, price=1000.0, nrSeats=0}])
+24 Oct 2021 13:58:45,731 TRACE repository.ReservationDBRepository 152 size - Enter SIZE of reservations
+24 Oct 2021 13:58:45,732 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 13:58:45,732 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@63dfd90d)
+24 Oct 2021 13:58:45,732 TRACE repository.ReservationDBRepository 158 size - SIZE org.sqlite.jdbc4.JDBC4ResultSet@4bb434db
+24 Oct 2021 13:58:46,736 TRACE repository.ReservationDBRepository 27 add - Enter saving reservation Reservation{nrTickets=3, clientName='Liviu', telephone='00112233'} 
+24 Oct 2021 13:58:46,737 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 13:58:46,737 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@63dfd90d)
+24 Oct 2021 13:58:46,744 TRACE repository.ReservationDBRepository 38 add - Saved 1 instances
+24 Oct 2021 13:58:46,744 TRACE repository.ReservationDBRepository 45 add - Exit
+24 Oct 2021 13:58:47,749 TRACE repository.TripDBRepository 66 update - Enter updating trip Trip{touristAttraction='Colosseum', transportCompany='RomeAirlines', leavingHour=11:00, price=2000.0, nrSeats=76} 
+24 Oct 2021 13:58:47,749 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 13:58:47,749 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@4576f1be)
+24 Oct 2021 13:58:47,753 TRACE repository.TripDBRepository 79 update - Updated 1 instances
+24 Oct 2021 13:58:47,754 TRACE repository.TripDBRepository 86 update - Exit
+24 Oct 2021 13:58:47,754 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 13:58:47,754 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@592a21e4)
+24 Oct 2021 13:58:47,755 TRACE repository.AgencyUserDBRepository 134 findAll - Exit with([AgencyUser{name='elo', password='12345'}, AgencyUser{name='mlo', password='67890'}, AgencyUser{name='dmc', password='19324'}, AgencyUser{name='UpdatedAgencyUser', password='UpdatedPass'}])
+24 Oct 2021 13:58:47,755 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 13:58:47,755 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@4576f1be)
+24 Oct 2021 13:58:47,756 TRACE repository.TripDBRepository 144 findAll - Exit with([Trip{touristAttraction='Statue of Liberty', transportCompany='AmericanAirlines', leavingHour=10:00, price=22222.0, nrSeats=454}, Trip{touristAttraction='Eiffel Tower', transportCompany='Tetarom', leavingHour=07:00, price=1000.0, nrSeats=187}, Trip{touristAttraction='Colosseum', transportCompany='RomeAirlines', leavingHour=11:00, price=2000.0, nrSeats=76}, Trip{touristAttraction='Bran Castle', transportCompany='RoTrans', leavingHour=06:00, price=100.0, nrSeats=70}, Trip{touristAttraction='Acropolis', transportCompany='AthensAirlines', leavingHour=12:00, price=1100.0, nrSeats=135}, Trip{touristAttraction='Acropolis', transportCompany='Airlines', leavingHour=09:00, price=2001.0, nrSeats=0}, Trip{touristAttraction='NewAttraction2', transportCompany='NewTransport2', leavingHour=10:00, price=0.0, nrSeats=0}, Trip{touristAttraction='Attraction', transportCompany='Transport', leavingHour=10:00, price=1000.0, nrSeats=0}])
+24 Oct 2021 13:58:48,761 TRACE repository.ReservationDBRepository 152 size - Enter SIZE of reservations
+24 Oct 2021 13:58:48,761 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 13:58:48,762 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@63dfd90d)
+24 Oct 2021 13:58:48,762 TRACE repository.ReservationDBRepository 158 size - SIZE org.sqlite.jdbc4.JDBC4ResultSet@54e9b042
+24 Oct 2021 13:58:49,764 TRACE repository.ReservationDBRepository 27 add - Enter saving reservation Reservation{nrTickets=3, clientName='Liviu', telephone='00112233'} 
+24 Oct 2021 13:58:49,764 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 13:58:49,764 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@63dfd90d)
+24 Oct 2021 13:58:49,768 TRACE repository.ReservationDBRepository 38 add - Saved 1 instances
+24 Oct 2021 13:58:49,769 TRACE repository.ReservationDBRepository 45 add - Exit
+24 Oct 2021 13:58:53,698 TRACE repository.TripDBRepository 66 update - Enter updating trip Trip{touristAttraction='Colosseum', transportCompany='RomeAirlines', leavingHour=11:00, price=2000.0, nrSeats=73} 
+24 Oct 2021 13:58:53,698 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 13:58:53,698 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@4576f1be)
+24 Oct 2021 13:58:53,705 TRACE repository.TripDBRepository 79 update - Updated 1 instances
+24 Oct 2021 13:58:53,705 TRACE repository.TripDBRepository 86 update - Exit
+24 Oct 2021 13:58:53,705 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 13:58:53,706 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@592a21e4)
+24 Oct 2021 13:58:53,706 TRACE repository.AgencyUserDBRepository 134 findAll - Exit with([AgencyUser{name='elo', password='12345'}, AgencyUser{name='mlo', password='67890'}, AgencyUser{name='dmc', password='19324'}, AgencyUser{name='UpdatedAgencyUser', password='UpdatedPass'}])
+24 Oct 2021 13:58:53,706 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 13:58:53,707 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@4576f1be)
+24 Oct 2021 13:58:53,708 TRACE repository.TripDBRepository 144 findAll - Exit with([Trip{touristAttraction='Statue of Liberty', transportCompany='AmericanAirlines', leavingHour=10:00, price=22222.0, nrSeats=454}, Trip{touristAttraction='Eiffel Tower', transportCompany='Tetarom', leavingHour=07:00, price=1000.0, nrSeats=187}, Trip{touristAttraction='Colosseum', transportCompany='RomeAirlines', leavingHour=11:00, price=2000.0, nrSeats=73}, Trip{touristAttraction='Bran Castle', transportCompany='RoTrans', leavingHour=06:00, price=100.0, nrSeats=70}, Trip{touristAttraction='Acropolis', transportCompany='AthensAirlines', leavingHour=12:00, price=1100.0, nrSeats=135}, Trip{touristAttraction='Acropolis', transportCompany='Airlines', leavingHour=09:00, price=2001.0, nrSeats=0}, Trip{touristAttraction='NewAttraction2', transportCompany='NewTransport2', leavingHour=10:00, price=0.0, nrSeats=0}, Trip{touristAttraction='Attraction', transportCompany='Transport', leavingHour=10:00, price=1000.0, nrSeats=0}])
+24 Oct 2021 13:58:54,714 TRACE repository.ReservationDBRepository 152 size - Enter SIZE of reservations
+24 Oct 2021 13:58:54,714 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 13:58:54,715 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@63dfd90d)
+24 Oct 2021 13:58:54,715 TRACE repository.ReservationDBRepository 158 size - SIZE org.sqlite.jdbc4.JDBC4ResultSet@5a2476e9
+24 Oct 2021 13:58:55,721 TRACE repository.ReservationDBRepository 27 add - Enter saving reservation Reservation{nrTickets=3, clientName='Liviu', telephone='00112233'} 
+24 Oct 2021 13:58:55,721 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 13:58:55,721 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@63dfd90d)
+24 Oct 2021 13:58:55,729 TRACE repository.ReservationDBRepository 38 add - Saved 1 instances
+24 Oct 2021 13:58:55,729 TRACE repository.ReservationDBRepository 45 add - Exit
+24 Oct 2021 13:58:56,734 TRACE repository.TripDBRepository 66 update - Enter updating trip Trip{touristAttraction='Colosseum', transportCompany='RomeAirlines', leavingHour=11:00, price=2000.0, nrSeats=70} 
+24 Oct 2021 13:58:56,734 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 13:58:56,734 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@4576f1be)
+24 Oct 2021 13:58:56,742 TRACE repository.TripDBRepository 79 update - Updated 1 instances
+24 Oct 2021 13:58:56,742 TRACE repository.TripDBRepository 86 update - Exit
+24 Oct 2021 13:58:56,742 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 13:58:56,743 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@592a21e4)
+24 Oct 2021 13:58:56,743 TRACE repository.AgencyUserDBRepository 134 findAll - Exit with([AgencyUser{name='elo', password='12345'}, AgencyUser{name='mlo', password='67890'}, AgencyUser{name='dmc', password='19324'}, AgencyUser{name='UpdatedAgencyUser', password='UpdatedPass'}])
+24 Oct 2021 13:58:56,744 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 13:58:56,744 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@4576f1be)
+24 Oct 2021 13:58:56,745 TRACE repository.TripDBRepository 144 findAll - Exit with([Trip{touristAttraction='Statue of Liberty', transportCompany='AmericanAirlines', leavingHour=10:00, price=22222.0, nrSeats=454}, Trip{touristAttraction='Eiffel Tower', transportCompany='Tetarom', leavingHour=07:00, price=1000.0, nrSeats=187}, Trip{touristAttraction='Colosseum', transportCompany='RomeAirlines', leavingHour=11:00, price=2000.0, nrSeats=70}, Trip{touristAttraction='Bran Castle', transportCompany='RoTrans', leavingHour=06:00, price=100.0, nrSeats=70}, Trip{touristAttraction='Acropolis', transportCompany='AthensAirlines', leavingHour=12:00, price=1100.0, nrSeats=135}, Trip{touristAttraction='Acropolis', transportCompany='Airlines', leavingHour=09:00, price=2001.0, nrSeats=0}, Trip{touristAttraction='NewAttraction2', transportCompany='NewTransport2', leavingHour=10:00, price=0.0, nrSeats=0}, Trip{touristAttraction='Attraction', transportCompany='Transport', leavingHour=10:00, price=1000.0, nrSeats=0}])
+24 Oct 2021 13:58:57,748 TRACE repository.ReservationDBRepository 152 size - Enter SIZE of reservations
+24 Oct 2021 13:58:57,748 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 13:58:57,748 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@63dfd90d)
+24 Oct 2021 13:58:57,748 TRACE repository.ReservationDBRepository 158 size - SIZE org.sqlite.jdbc4.JDBC4ResultSet@2d94e909
+24 Oct 2021 13:58:58,754 TRACE repository.ReservationDBRepository 27 add - Enter saving reservation Reservation{nrTickets=3, clientName='Liviu', telephone='00112233'} 
+24 Oct 2021 13:58:58,754 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 13:58:58,754 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@63dfd90d)
+24 Oct 2021 13:58:58,762 TRACE repository.ReservationDBRepository 38 add - Saved 1 instances
+24 Oct 2021 13:58:58,762 TRACE repository.ReservationDBRepository 45 add - Exit
+24 Oct 2021 13:58:59,766 TRACE repository.TripDBRepository 66 update - Enter updating trip Trip{touristAttraction='Colosseum', transportCompany='RomeAirlines', leavingHour=11:00, price=2000.0, nrSeats=67} 
+24 Oct 2021 13:58:59,766 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 13:58:59,766 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@4576f1be)
+24 Oct 2021 13:58:59,773 TRACE repository.TripDBRepository 79 update - Updated 1 instances
+24 Oct 2021 13:58:59,774 TRACE repository.TripDBRepository 86 update - Exit
+24 Oct 2021 13:58:59,774 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 13:58:59,774 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@592a21e4)
+24 Oct 2021 13:58:59,775 TRACE repository.AgencyUserDBRepository 134 findAll - Exit with([AgencyUser{name='elo', password='12345'}, AgencyUser{name='mlo', password='67890'}, AgencyUser{name='dmc', password='19324'}, AgencyUser{name='UpdatedAgencyUser', password='UpdatedPass'}])
+24 Oct 2021 13:58:59,775 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 13:58:59,775 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@4576f1be)
+24 Oct 2021 13:58:59,776 TRACE repository.TripDBRepository 144 findAll - Exit with([Trip{touristAttraction='Statue of Liberty', transportCompany='AmericanAirlines', leavingHour=10:00, price=22222.0, nrSeats=454}, Trip{touristAttraction='Eiffel Tower', transportCompany='Tetarom', leavingHour=07:00, price=1000.0, nrSeats=187}, Trip{touristAttraction='Colosseum', transportCompany='RomeAirlines', leavingHour=11:00, price=2000.0, nrSeats=67}, Trip{touristAttraction='Bran Castle', transportCompany='RoTrans', leavingHour=06:00, price=100.0, nrSeats=70}, Trip{touristAttraction='Acropolis', transportCompany='AthensAirlines', leavingHour=12:00, price=1100.0, nrSeats=135}, Trip{touristAttraction='Acropolis', transportCompany='Airlines', leavingHour=09:00, price=2001.0, nrSeats=0}, Trip{touristAttraction='NewAttraction2', transportCompany='NewTransport2', leavingHour=10:00, price=0.0, nrSeats=0}, Trip{touristAttraction='Attraction', transportCompany='Transport', leavingHour=10:00, price=1000.0, nrSeats=0}])
+24 Oct 2021 13:59:00,782 TRACE repository.ReservationDBRepository 152 size - Enter SIZE of reservations
+24 Oct 2021 13:59:00,782 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 13:59:00,783 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@63dfd90d)
+24 Oct 2021 13:59:00,783 TRACE repository.ReservationDBRepository 158 size - SIZE org.sqlite.jdbc4.JDBC4ResultSet@57a1dd19
+24 Oct 2021 13:59:01,787 TRACE repository.ReservationDBRepository 27 add - Enter saving reservation Reservation{nrTickets=3, clientName='Liviu', telephone='00112233'} 
+24 Oct 2021 13:59:01,788 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 13:59:01,788 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@63dfd90d)
+24 Oct 2021 13:59:01,795 TRACE repository.ReservationDBRepository 38 add - Saved 1 instances
+24 Oct 2021 13:59:01,795 TRACE repository.ReservationDBRepository 45 add - Exit
+24 Oct 2021 13:59:37,120 INFO  repository.AgencyUserDBRepository 21 <init> - Initializing TripDBRepository with properties: {touristAttractions.server.port=55556, attractions.jdbc.url=jdbc:sqlite:/Users/laura-elena.olaru/Desktop/GIT_PROJECTS/Java-Projects/TouristAttractionsSpringThrift/Spring/databases/touristAttractions.db, attractions.jdbc.driver=org.sqlite.JDBC} 
+24 Oct 2021 13:59:37,126 INFO  repository.TripDBRepository 19 <init> - Initializing TripDBRepository with properties: {touristAttractions.server.port=55556, attractions.jdbc.url=jdbc:sqlite:/Users/laura-elena.olaru/Desktop/GIT_PROJECTS/Java-Projects/TouristAttractionsSpringThrift/Spring/databases/touristAttractions.db, attractions.jdbc.driver=org.sqlite.JDBC} 
+24 Oct 2021 13:59:37,128 INFO  repository.ReservationDBRepository 21 <init> - Initializing TripDBRepository with properties: {touristAttractions.server.port=55556, attractions.jdbc.url=jdbc:sqlite:/Users/laura-elena.olaru/Desktop/GIT_PROJECTS/Java-Projects/TouristAttractionsSpringThrift/Spring/databases/touristAttractions.db, attractions.jdbc.driver=org.sqlite.JDBC} 
+24 Oct 2021 14:00:24,744 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 14:00:24,747 TRACE repository.JdbcUtils 20 getNewConnection - Enter
+24 Oct 2021 14:00:24,748 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/laura-elena.olaru/Desktop/GIT_PROJECTS/Java-Projects/TouristAttractionsSpringThrift/Spring/databases/touristAttractions.db
+24 Oct 2021 14:00:25,152 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@3702b38e)
+24 Oct 2021 14:00:25,156 TRACE repository.AgencyUserDBRepository 181 filterAgencyUserByUserNameAndPassword - Exit
+24 Oct 2021 14:00:57,284 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 14:00:57,285 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@3702b38e)
+24 Oct 2021 14:00:57,286 TRACE repository.AgencyUserDBRepository 181 filterAgencyUserByUserNameAndPassword - Exit
+24 Oct 2021 14:01:12,080 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 14:01:12,081 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@3702b38e)
+24 Oct 2021 14:01:12,082 TRACE repository.AgencyUserDBRepository 181 filterAgencyUserByUserNameAndPassword - Exit with(AgencyUser{name='elo', password='12345'})
+24 Oct 2021 14:01:14,923 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 14:01:14,924 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@3702b38e)
+24 Oct 2021 14:01:14,924 TRACE repository.AgencyUserDBRepository 181 filterAgencyUserByUserNameAndPassword - Exit with(AgencyUser{name='elo', password='12345'})
+24 Oct 2021 14:01:15,930 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 14:01:15,930 TRACE repository.JdbcUtils 20 getNewConnection - Enter
+24 Oct 2021 14:01:15,930 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/laura-elena.olaru/Desktop/GIT_PROJECTS/Java-Projects/TouristAttractionsSpringThrift/Spring/databases/touristAttractions.db
+24 Oct 2021 14:01:15,931 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@ebbb09f)
+24 Oct 2021 14:01:15,942 TRACE repository.TripDBRepository 144 findAll - Exit with([Trip{touristAttraction='Statue of Liberty', transportCompany='AmericanAirlines', leavingHour=10:00, price=22222.0, nrSeats=454}, Trip{touristAttraction='Eiffel Tower', transportCompany='Tetarom', leavingHour=07:00, price=1000.0, nrSeats=187}, Trip{touristAttraction='Colosseum', transportCompany='RomeAirlines', leavingHour=11:00, price=2000.0, nrSeats=67}, Trip{touristAttraction='Bran Castle', transportCompany='RoTrans', leavingHour=06:00, price=100.0, nrSeats=70}, Trip{touristAttraction='Acropolis', transportCompany='AthensAirlines', leavingHour=12:00, price=1100.0, nrSeats=135}, Trip{touristAttraction='Acropolis', transportCompany='Airlines', leavingHour=09:00, price=2001.0, nrSeats=0}, Trip{touristAttraction='NewAttraction2', transportCompany='NewTransport2', leavingHour=10:00, price=0.0, nrSeats=0}, Trip{touristAttraction='Attraction', transportCompany='Transport', leavingHour=10:00, price=1000.0, nrSeats=0}])
+24 Oct 2021 14:05:57,174 TRACE repository.TripDBRepository 66 update - Enter updating trip Trip{touristAttraction='Eiffel Tower', transportCompany='Tetarom', leavingHour=07:00, price=1000.0, nrSeats=185} 
+24 Oct 2021 14:05:57,176 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 14:05:57,176 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@ebbb09f)
+24 Oct 2021 14:05:57,181 TRACE repository.TripDBRepository 79 update - Updated 1 instances
+24 Oct 2021 14:05:57,181 TRACE repository.TripDBRepository 86 update - Exit
+24 Oct 2021 14:05:57,181 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 14:05:57,182 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@3702b38e)
+24 Oct 2021 14:05:57,183 TRACE repository.AgencyUserDBRepository 134 findAll - Exit with([AgencyUser{name='elo', password='12345'}, AgencyUser{name='mlo', password='67890'}, AgencyUser{name='dmc', password='19324'}, AgencyUser{name='UpdatedAgencyUser', password='UpdatedPass'}])
+24 Oct 2021 14:05:57,183 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 14:05:57,184 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@ebbb09f)
+24 Oct 2021 14:05:57,185 TRACE repository.TripDBRepository 144 findAll - Exit with([Trip{touristAttraction='Statue of Liberty', transportCompany='AmericanAirlines', leavingHour=10:00, price=22222.0, nrSeats=454}, Trip{touristAttraction='Eiffel Tower', transportCompany='Tetarom', leavingHour=07:00, price=1000.0, nrSeats=185}, Trip{touristAttraction='Colosseum', transportCompany='RomeAirlines', leavingHour=11:00, price=2000.0, nrSeats=67}, Trip{touristAttraction='Bran Castle', transportCompany='RoTrans', leavingHour=06:00, price=100.0, nrSeats=70}, Trip{touristAttraction='Acropolis', transportCompany='AthensAirlines', leavingHour=12:00, price=1100.0, nrSeats=135}, Trip{touristAttraction='Acropolis', transportCompany='Airlines', leavingHour=09:00, price=2001.0, nrSeats=0}, Trip{touristAttraction='NewAttraction2', transportCompany='NewTransport2', leavingHour=10:00, price=0.0, nrSeats=0}, Trip{touristAttraction='Attraction', transportCompany='Transport', leavingHour=10:00, price=1000.0, nrSeats=0}])
+24 Oct 2021 14:05:58,194 TRACE repository.ReservationDBRepository 152 size - Enter SIZE of reservations
+24 Oct 2021 14:05:58,194 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 14:05:58,194 TRACE repository.JdbcUtils 20 getNewConnection - Enter
+24 Oct 2021 14:05:58,195 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/laura-elena.olaru/Desktop/GIT_PROJECTS/Java-Projects/TouristAttractionsSpringThrift/Spring/databases/touristAttractions.db
+24 Oct 2021 14:05:58,195 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@6310d1db)
+24 Oct 2021 14:05:58,196 TRACE repository.ReservationDBRepository 158 size - SIZE org.sqlite.jdbc4.JDBC4ResultSet@7d37e9b7
+24 Oct 2021 14:05:59,206 TRACE repository.ReservationDBRepository 27 add - Enter saving reservation Reservation{nrTickets=2, clientName='Eu', telephone='0722054662'} 
+24 Oct 2021 14:05:59,206 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 14:05:59,206 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@6310d1db)
+24 Oct 2021 14:05:59,209 TRACE repository.ReservationDBRepository 38 add - Saved 1 instances
+24 Oct 2021 14:05:59,209 TRACE repository.ReservationDBRepository 45 add - Exit
+24 Oct 2021 14:06:00,215 TRACE repository.TripDBRepository 66 update - Enter updating trip Trip{touristAttraction='Eiffel Tower', transportCompany='Tetarom', leavingHour=07:00, price=1000.0, nrSeats=183} 
+24 Oct 2021 14:06:00,216 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 14:06:00,216 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@ebbb09f)
+24 Oct 2021 14:06:00,220 TRACE repository.TripDBRepository 79 update - Updated 1 instances
+24 Oct 2021 14:06:00,220 TRACE repository.TripDBRepository 86 update - Exit
+24 Oct 2021 14:06:00,220 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 14:06:00,221 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@3702b38e)
+24 Oct 2021 14:06:00,221 TRACE repository.AgencyUserDBRepository 134 findAll - Exit with([AgencyUser{name='elo', password='12345'}, AgencyUser{name='mlo', password='67890'}, AgencyUser{name='dmc', password='19324'}, AgencyUser{name='UpdatedAgencyUser', password='UpdatedPass'}])
+24 Oct 2021 14:06:00,221 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 14:06:00,221 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@ebbb09f)
+24 Oct 2021 14:06:00,223 TRACE repository.TripDBRepository 144 findAll - Exit with([Trip{touristAttraction='Statue of Liberty', transportCompany='AmericanAirlines', leavingHour=10:00, price=22222.0, nrSeats=454}, Trip{touristAttraction='Eiffel Tower', transportCompany='Tetarom', leavingHour=07:00, price=1000.0, nrSeats=183}, Trip{touristAttraction='Colosseum', transportCompany='RomeAirlines', leavingHour=11:00, price=2000.0, nrSeats=67}, Trip{touristAttraction='Bran Castle', transportCompany='RoTrans', leavingHour=06:00, price=100.0, nrSeats=70}, Trip{touristAttraction='Acropolis', transportCompany='AthensAirlines', leavingHour=12:00, price=1100.0, nrSeats=135}, Trip{touristAttraction='Acropolis', transportCompany='Airlines', leavingHour=09:00, price=2001.0, nrSeats=0}, Trip{touristAttraction='NewAttraction2', transportCompany='NewTransport2', leavingHour=10:00, price=0.0, nrSeats=0}, Trip{touristAttraction='Attraction', transportCompany='Transport', leavingHour=10:00, price=1000.0, nrSeats=0}])
+24 Oct 2021 14:06:01,229 TRACE repository.ReservationDBRepository 152 size - Enter SIZE of reservations
+24 Oct 2021 14:06:01,229 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 14:06:01,229 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@6310d1db)
+24 Oct 2021 14:06:01,229 TRACE repository.ReservationDBRepository 158 size - SIZE org.sqlite.jdbc4.JDBC4ResultSet@52619ee8
+24 Oct 2021 14:06:02,233 TRACE repository.ReservationDBRepository 27 add - Enter saving reservation Reservation{nrTickets=2, clientName='Eu', telephone='0722054662'} 
+24 Oct 2021 14:06:02,233 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 14:06:02,234 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@6310d1db)
+24 Oct 2021 14:06:02,241 TRACE repository.ReservationDBRepository 38 add - Saved 1 instances
+24 Oct 2021 14:06:02,241 TRACE repository.ReservationDBRepository 45 add - Exit
+24 Oct 2021 14:06:03,247 TRACE repository.TripDBRepository 66 update - Enter updating trip Trip{touristAttraction='Eiffel Tower', transportCompany='Tetarom', leavingHour=07:00, price=1000.0, nrSeats=181} 
+24 Oct 2021 14:06:03,247 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 14:06:03,247 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@ebbb09f)
+24 Oct 2021 14:06:03,254 TRACE repository.TripDBRepository 79 update - Updated 1 instances
+24 Oct 2021 14:06:03,255 TRACE repository.TripDBRepository 86 update - Exit
+24 Oct 2021 14:06:03,255 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 14:06:03,255 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@3702b38e)
+24 Oct 2021 14:06:03,255 TRACE repository.AgencyUserDBRepository 134 findAll - Exit with([AgencyUser{name='elo', password='12345'}, AgencyUser{name='mlo', password='67890'}, AgencyUser{name='dmc', password='19324'}, AgencyUser{name='UpdatedAgencyUser', password='UpdatedPass'}])
+24 Oct 2021 14:06:03,256 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 14:06:03,256 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@ebbb09f)
+24 Oct 2021 14:06:03,257 TRACE repository.TripDBRepository 144 findAll - Exit with([Trip{touristAttraction='Statue of Liberty', transportCompany='AmericanAirlines', leavingHour=10:00, price=22222.0, nrSeats=454}, Trip{touristAttraction='Eiffel Tower', transportCompany='Tetarom', leavingHour=07:00, price=1000.0, nrSeats=181}, Trip{touristAttraction='Colosseum', transportCompany='RomeAirlines', leavingHour=11:00, price=2000.0, nrSeats=67}, Trip{touristAttraction='Bran Castle', transportCompany='RoTrans', leavingHour=06:00, price=100.0, nrSeats=70}, Trip{touristAttraction='Acropolis', transportCompany='AthensAirlines', leavingHour=12:00, price=1100.0, nrSeats=135}, Trip{touristAttraction='Acropolis', transportCompany='Airlines', leavingHour=09:00, price=2001.0, nrSeats=0}, Trip{touristAttraction='NewAttraction2', transportCompany='NewTransport2', leavingHour=10:00, price=0.0, nrSeats=0}, Trip{touristAttraction='Attraction', transportCompany='Transport', leavingHour=10:00, price=1000.0, nrSeats=0}])
+24 Oct 2021 14:06:04,260 TRACE repository.ReservationDBRepository 152 size - Enter SIZE of reservations
+24 Oct 2021 14:06:04,260 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 14:06:04,261 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@6310d1db)
+24 Oct 2021 14:06:04,261 TRACE repository.ReservationDBRepository 158 size - SIZE org.sqlite.jdbc4.JDBC4ResultSet@1491a332
+24 Oct 2021 14:06:05,267 TRACE repository.ReservationDBRepository 27 add - Enter saving reservation Reservation{nrTickets=2, clientName='Eu', telephone='0722054662'} 
+24 Oct 2021 14:06:05,267 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 14:06:05,267 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@6310d1db)
+24 Oct 2021 14:06:05,274 TRACE repository.ReservationDBRepository 38 add - Saved 1 instances
+24 Oct 2021 14:06:05,274 TRACE repository.ReservationDBRepository 45 add - Exit
+24 Oct 2021 14:06:06,279 TRACE repository.TripDBRepository 66 update - Enter updating trip Trip{touristAttraction='Eiffel Tower', transportCompany='Tetarom', leavingHour=07:00, price=1000.0, nrSeats=179} 
+24 Oct 2021 14:06:06,280 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 14:06:06,280 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@ebbb09f)
+24 Oct 2021 14:06:06,288 TRACE repository.TripDBRepository 79 update - Updated 1 instances
+24 Oct 2021 14:06:06,288 TRACE repository.TripDBRepository 86 update - Exit
+24 Oct 2021 14:06:06,288 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 14:06:06,289 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@3702b38e)
+24 Oct 2021 14:06:06,289 TRACE repository.AgencyUserDBRepository 134 findAll - Exit with([AgencyUser{name='elo', password='12345'}, AgencyUser{name='mlo', password='67890'}, AgencyUser{name='dmc', password='19324'}, AgencyUser{name='UpdatedAgencyUser', password='UpdatedPass'}])
+24 Oct 2021 14:06:06,289 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 14:06:06,290 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@ebbb09f)
+24 Oct 2021 14:06:06,291 TRACE repository.TripDBRepository 144 findAll - Exit with([Trip{touristAttraction='Statue of Liberty', transportCompany='AmericanAirlines', leavingHour=10:00, price=22222.0, nrSeats=454}, Trip{touristAttraction='Eiffel Tower', transportCompany='Tetarom', leavingHour=07:00, price=1000.0, nrSeats=179}, Trip{touristAttraction='Colosseum', transportCompany='RomeAirlines', leavingHour=11:00, price=2000.0, nrSeats=67}, Trip{touristAttraction='Bran Castle', transportCompany='RoTrans', leavingHour=06:00, price=100.0, nrSeats=70}, Trip{touristAttraction='Acropolis', transportCompany='AthensAirlines', leavingHour=12:00, price=1100.0, nrSeats=135}, Trip{touristAttraction='Acropolis', transportCompany='Airlines', leavingHour=09:00, price=2001.0, nrSeats=0}, Trip{touristAttraction='NewAttraction2', transportCompany='NewTransport2', leavingHour=10:00, price=0.0, nrSeats=0}, Trip{touristAttraction='Attraction', transportCompany='Transport', leavingHour=10:00, price=1000.0, nrSeats=0}])
+24 Oct 2021 14:06:07,293 TRACE repository.ReservationDBRepository 152 size - Enter SIZE of reservations
+24 Oct 2021 14:06:07,293 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 14:06:07,294 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@6310d1db)
+24 Oct 2021 14:06:07,294 TRACE repository.ReservationDBRepository 158 size - SIZE org.sqlite.jdbc4.JDBC4ResultSet@862f201
+24 Oct 2021 14:06:08,300 TRACE repository.ReservationDBRepository 27 add - Enter saving reservation Reservation{nrTickets=2, clientName='Eu', telephone='0722054662'} 
+24 Oct 2021 14:06:08,300 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 14:06:08,300 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@6310d1db)
+24 Oct 2021 14:06:08,311 TRACE repository.ReservationDBRepository 38 add - Saved 1 instances
+24 Oct 2021 14:06:08,311 TRACE repository.ReservationDBRepository 45 add - Exit
+24 Oct 2021 14:06:09,316 TRACE repository.TripDBRepository 66 update - Enter updating trip Trip{touristAttraction='Eiffel Tower', transportCompany='Tetarom', leavingHour=07:00, price=1000.0, nrSeats=177} 
+24 Oct 2021 14:06:09,317 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 14:06:09,317 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@ebbb09f)
+24 Oct 2021 14:06:09,319 TRACE repository.TripDBRepository 79 update - Updated 1 instances
+24 Oct 2021 14:06:09,319 TRACE repository.TripDBRepository 86 update - Exit
+24 Oct 2021 14:06:09,320 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 14:06:09,320 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@3702b38e)
+24 Oct 2021 14:06:09,320 TRACE repository.AgencyUserDBRepository 134 findAll - Exit with([AgencyUser{name='elo', password='12345'}, AgencyUser{name='mlo', password='67890'}, AgencyUser{name='dmc', password='19324'}, AgencyUser{name='UpdatedAgencyUser', password='UpdatedPass'}])
+24 Oct 2021 14:06:09,321 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 14:06:09,321 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@ebbb09f)
+24 Oct 2021 14:06:09,322 TRACE repository.TripDBRepository 144 findAll - Exit with([Trip{touristAttraction='Statue of Liberty', transportCompany='AmericanAirlines', leavingHour=10:00, price=22222.0, nrSeats=454}, Trip{touristAttraction='Eiffel Tower', transportCompany='Tetarom', leavingHour=07:00, price=1000.0, nrSeats=177}, Trip{touristAttraction='Colosseum', transportCompany='RomeAirlines', leavingHour=11:00, price=2000.0, nrSeats=67}, Trip{touristAttraction='Bran Castle', transportCompany='RoTrans', leavingHour=06:00, price=100.0, nrSeats=70}, Trip{touristAttraction='Acropolis', transportCompany='AthensAirlines', leavingHour=12:00, price=1100.0, nrSeats=135}, Trip{touristAttraction='Acropolis', transportCompany='Airlines', leavingHour=09:00, price=2001.0, nrSeats=0}, Trip{touristAttraction='NewAttraction2', transportCompany='NewTransport2', leavingHour=10:00, price=0.0, nrSeats=0}, Trip{touristAttraction='Attraction', transportCompany='Transport', leavingHour=10:00, price=1000.0, nrSeats=0}])
+24 Oct 2021 14:06:10,325 TRACE repository.ReservationDBRepository 152 size - Enter SIZE of reservations
+24 Oct 2021 14:06:10,326 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 14:06:10,326 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@6310d1db)
+24 Oct 2021 14:06:10,326 TRACE repository.ReservationDBRepository 158 size - SIZE org.sqlite.jdbc4.JDBC4ResultSet@5d66a44b
+24 Oct 2021 14:06:11,328 TRACE repository.ReservationDBRepository 27 add - Enter saving reservation Reservation{nrTickets=2, clientName='Eu', telephone='0722054662'} 
+24 Oct 2021 14:06:11,328 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 14:06:11,328 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@6310d1db)
+24 Oct 2021 14:06:11,331 TRACE repository.ReservationDBRepository 38 add - Saved 1 instances
+24 Oct 2021 14:06:11,332 TRACE repository.ReservationDBRepository 45 add - Exit
+24 Oct 2021 14:06:12,333 TRACE repository.TripDBRepository 66 update - Enter updating trip Trip{touristAttraction='Eiffel Tower', transportCompany='Tetarom', leavingHour=07:00, price=1000.0, nrSeats=175} 
+24 Oct 2021 14:06:12,334 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 14:06:12,334 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@ebbb09f)
+24 Oct 2021 14:06:12,337 TRACE repository.TripDBRepository 79 update - Updated 1 instances
+24 Oct 2021 14:06:12,338 TRACE repository.TripDBRepository 86 update - Exit
+24 Oct 2021 14:06:12,338 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 14:06:12,338 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@3702b38e)
+24 Oct 2021 14:06:12,339 TRACE repository.AgencyUserDBRepository 134 findAll - Exit with([AgencyUser{name='elo', password='12345'}, AgencyUser{name='mlo', password='67890'}, AgencyUser{name='dmc', password='19324'}, AgencyUser{name='UpdatedAgencyUser', password='UpdatedPass'}])
+24 Oct 2021 14:06:12,339 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 14:06:12,339 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@ebbb09f)
+24 Oct 2021 14:06:12,340 TRACE repository.TripDBRepository 144 findAll - Exit with([Trip{touristAttraction='Statue of Liberty', transportCompany='AmericanAirlines', leavingHour=10:00, price=22222.0, nrSeats=454}, Trip{touristAttraction='Eiffel Tower', transportCompany='Tetarom', leavingHour=07:00, price=1000.0, nrSeats=175}, Trip{touristAttraction='Colosseum', transportCompany='RomeAirlines', leavingHour=11:00, price=2000.0, nrSeats=67}, Trip{touristAttraction='Bran Castle', transportCompany='RoTrans', leavingHour=06:00, price=100.0, nrSeats=70}, Trip{touristAttraction='Acropolis', transportCompany='AthensAirlines', leavingHour=12:00, price=1100.0, nrSeats=135}, Trip{touristAttraction='Acropolis', transportCompany='Airlines', leavingHour=09:00, price=2001.0, nrSeats=0}, Trip{touristAttraction='NewAttraction2', transportCompany='NewTransport2', leavingHour=10:00, price=0.0, nrSeats=0}, Trip{touristAttraction='Attraction', transportCompany='Transport', leavingHour=10:00, price=1000.0, nrSeats=0}])
+24 Oct 2021 14:06:13,346 TRACE repository.ReservationDBRepository 152 size - Enter SIZE of reservations
+24 Oct 2021 14:06:13,346 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 14:06:13,346 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@6310d1db)
+24 Oct 2021 14:06:13,347 TRACE repository.ReservationDBRepository 158 size - SIZE org.sqlite.jdbc4.JDBC4ResultSet@65f1c6ff
+24 Oct 2021 14:06:14,352 TRACE repository.ReservationDBRepository 27 add - Enter saving reservation Reservation{nrTickets=2, clientName='Eu', telephone='0722054662'} 
+24 Oct 2021 14:06:14,352 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 14:06:14,352 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@6310d1db)
+24 Oct 2021 14:06:14,360 TRACE repository.ReservationDBRepository 38 add - Saved 1 instances
+24 Oct 2021 14:06:14,360 TRACE repository.ReservationDBRepository 45 add - Exit
+24 Oct 2021 14:06:15,365 TRACE repository.TripDBRepository 66 update - Enter updating trip Trip{touristAttraction='Eiffel Tower', transportCompany='Tetarom', leavingHour=07:00, price=1000.0, nrSeats=173} 
+24 Oct 2021 14:06:15,365 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 14:06:15,365 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@ebbb09f)
+24 Oct 2021 14:06:15,372 TRACE repository.TripDBRepository 79 update - Updated 1 instances
+24 Oct 2021 14:06:15,372 TRACE repository.TripDBRepository 86 update - Exit
+24 Oct 2021 14:06:15,373 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 14:06:15,373 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@3702b38e)
+24 Oct 2021 14:06:15,373 TRACE repository.AgencyUserDBRepository 134 findAll - Exit with([AgencyUser{name='elo', password='12345'}, AgencyUser{name='mlo', password='67890'}, AgencyUser{name='dmc', password='19324'}, AgencyUser{name='UpdatedAgencyUser', password='UpdatedPass'}])
+24 Oct 2021 14:06:15,373 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 14:06:15,374 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@ebbb09f)
+24 Oct 2021 14:06:15,374 TRACE repository.TripDBRepository 144 findAll - Exit with([Trip{touristAttraction='Statue of Liberty', transportCompany='AmericanAirlines', leavingHour=10:00, price=22222.0, nrSeats=454}, Trip{touristAttraction='Eiffel Tower', transportCompany='Tetarom', leavingHour=07:00, price=1000.0, nrSeats=173}, Trip{touristAttraction='Colosseum', transportCompany='RomeAirlines', leavingHour=11:00, price=2000.0, nrSeats=67}, Trip{touristAttraction='Bran Castle', transportCompany='RoTrans', leavingHour=06:00, price=100.0, nrSeats=70}, Trip{touristAttraction='Acropolis', transportCompany='AthensAirlines', leavingHour=12:00, price=1100.0, nrSeats=135}, Trip{touristAttraction='Acropolis', transportCompany='Airlines', leavingHour=09:00, price=2001.0, nrSeats=0}, Trip{touristAttraction='NewAttraction2', transportCompany='NewTransport2', leavingHour=10:00, price=0.0, nrSeats=0}, Trip{touristAttraction='Attraction', transportCompany='Transport', leavingHour=10:00, price=1000.0, nrSeats=0}])
+24 Oct 2021 14:06:16,378 TRACE repository.ReservationDBRepository 152 size - Enter SIZE of reservations
+24 Oct 2021 14:06:16,378 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 14:06:16,379 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@6310d1db)
+24 Oct 2021 14:06:16,379 TRACE repository.ReservationDBRepository 158 size - SIZE org.sqlite.jdbc4.JDBC4ResultSet@3f270b8b
+24 Oct 2021 14:06:17,383 TRACE repository.ReservationDBRepository 27 add - Enter saving reservation Reservation{nrTickets=2, clientName='Eu', telephone='0722054662'} 
+24 Oct 2021 14:06:17,383 TRACE repository.JdbcUtils 44 getConnection - Enter
+24 Oct 2021 14:06:17,383 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.SQLiteConnection@6310d1db)
+24 Oct 2021 14:06:17,391 TRACE repository.ReservationDBRepository 38 add - Saved 1 instances
+24 Oct 2021 14:06:17,391 TRACE repository.ReservationDBRepository 45 add - Exit

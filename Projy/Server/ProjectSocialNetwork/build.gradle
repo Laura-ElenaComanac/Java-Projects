@@ -1,0 +1,43 @@
+plugins {
+	id 'org.springframework.boot' version '2.4.8'
+	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+	id 'java'
+}
+
+apply plugin: 'war'
+
+group = 'com.license'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-actuator'
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	compileOnly 'org.projectlombok:lombok'
+	developmentOnly 'org.springframework.boot:spring-boot-devtools'
+	annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
+	annotationProcessor 'org.projectlombok:lombok'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-tomcat'
+	implementation group: 'javax.xml.bind', name: 'jaxb-api'
+	implementation 'mysql:mysql-connector-java'
+	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-websocket'
+	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-validation'
+
+	//implementation group: 'org.springframework', name: 'spring-tx'
+	//implementation group: 'org.springframework.boot', name: 'spring-boot-autoconfigure'
+	//implementation group: 'org.springframework.boot', name: 'spring-boot'
+	//implementation group: 'org.springframework.data', name: 'spring-data-jpa'
+
+	compile group: 'org.apache.logging.log4j', name: 'log4j-core'
+	compile group: 'org.apache.logging.log4j', name: 'log4j-api'
+}
+
+test {
+	useJUnitPlatform()
+}

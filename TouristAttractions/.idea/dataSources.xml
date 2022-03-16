@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="touristAttractions.db" uuid="baca18be-4cfe-4256-934d-c82f2490e39c">
+    <data-source source="LOCAL" name="touristAttractions.db" uuid="1b8efcb1-eb47-405c-a094-2e211d923305">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/../../databases/touristAttractions.db</jdbc-url>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/../TouristAttractionsSpringThrift/Spring/databases/touristAttractions.db</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="touristAttractions.db [2]" uuid="313cc34a-da21-46e2-8d03-565be5df4aa0">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/../TouristAttractionsSpringThrift/Spring/databases/touristAttractions.db</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>
