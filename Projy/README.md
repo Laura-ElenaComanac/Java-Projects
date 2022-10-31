@@ -1,4 +1,4 @@
-# Flutter Mobile App Social Network - Beginning
+# Flutter Mobile App Social Network
 ## Layered Client-Server architecture with Network Connection and Offline mode
 ## Moor Database for the frontend
 ## REST API and WebSocket connected app to Spring Boot Server
